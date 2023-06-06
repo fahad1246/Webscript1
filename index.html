@@ -1,0 +1,42 @@
+<!--Fahad Mohammed
+03/10/2021
+     Part b-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculator App</title>
+<link rel="stylesheet" href="b.css"> <!--This is connecting the CSS file to the main-->
+<script src="b.js"></script><!-- connects the js to html-->
+</head>
+
+<body>
+        <h1>Calculator App</h1><!--This is the heading tag-->
+<div id="container">
+   
+<label>Operand 1:</label><!--This is the Td tag which is the cell and it contains the operand 1 data-->
+<input type="text" id="op1"><!--this tag contains the values to in put the numbers-->
+<br><br>
+<label>Operand 2:</label><!--This is the Td tag which is the cell and it contains the operand 2 data-->
+<input type="text" id="op2"><!--this tag contains the values to in put the numbers-->
+<br> <br>       
+<label>Results :</label><!--This is the Td tag which is the cell and it contains the result data-->
+<input type="text" id="res" onclick="op()"><!--this tag contains the result command which shows the result on click-->
+<br><br>
+    
+    <input type="radio" id="add" name="operation" value="+"><!--This creates a button for + function to add the values entered in the value text fields-->
+    <label>+</label><!--creates a lable for the + function-->
+    <input type="radio" id="mul" name="operation" value="*"><!--This creates a button for * function to multiply the values entered in the value text fields-->
+    <label>*</label><!--creates a lable for the * function-->
+    <input type="radio" id="sub" name="operation" value="-"><!--This creates a button for - function to subtract the values entered in the value text fields-->
+    <label>-</label><!--creates a lable for the - function-->
+    <input type="radio" id="div" name="operation" value="/"><!--This creates a button for / function to divide the values entered in the value text fields-->
+    <label>/</label><!--creates a lable for the / function-->
+    
+    <br><br>
+    <button id="btn">Clear All</button><!--creates a clear all button so when its clicked it will clear all the values in the value text fields -->
+</div>
+
+</body>
+</html>
